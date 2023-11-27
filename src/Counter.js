@@ -35,7 +35,7 @@ function Decrease({ icon }) {
   const { decrease } = useContext(CounterContext);
   return <button onClick={decrease}>{icon}</button>;
 }
-// 4. Add child components as proeprties to parent component
+// 4. Add child components as properties to parent component
 Counter.Count = Count;
 Counter.Label = Label;
 Counter.Increase = Increase;
